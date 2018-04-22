@@ -1,0 +1,22 @@
+{
+    "name": "controleonline/Payment",
+    "description": "Controle Online - Payment Module",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "Payment"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Payment\\": "src/Payment"
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    },
+    "homepage": "https://github.com/ControleOnline/payment",
+    "require": {
+        "controleonline/core": "*",
+        "controleonline/user": "*",
+        "pagseguro/pagseguro-php-sdk" : "~3.0"
+    }    
+}
